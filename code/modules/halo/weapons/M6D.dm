@@ -131,7 +131,7 @@
 
 	magazine_type = /obj/item/ammo_magazine/m6d/m224
 
-/obj/item/weapon/gun/projectile/m6d_magnum/police/police/update_icon()
+/obj/item/weapon/gun/projectile/m6d_magnum/police/update_icon()
 	. = ..()
 	if(ammo_magazine)
 		icon_state = "m6b_police"

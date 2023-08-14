@@ -651,3 +651,115 @@
 /obj/machinery/vending/armory/medical/innie
 	name = "Insurrectionist Medical Vendor"
 	req_access = list(access_innie)
+
+/obj/machinery/pointbased_vending/armory/marshal
+	name = "Marshal Equipment Rack"
+	desc = "Cold, dark, and slightly depressed. Basically an ODST in vending machine form."
+	color = COLOR_DARK_GRAY
+	req_access = list(access_unsc_odst)
+	products = list(
+					"Melee" = -1,
+					/obj/item/weapon/material/knife/combat_knife = 0,
+					"Policing Tools" = -1,
+					/obj/item/weapon/melee/baton/humbler = 0,
+					/obj/item/weapon/gun/energy/taser = 0,
+					/obj/item/weapon/reagent_containers/spray/pepper = 0,
+					/obj/item/weapon/handcuffs = 0,
+					"Guns" = -1,
+					/obj/item/weapon/gun/projectile/m6d_magnum/police = 0,
+					/obj/item/weapon/gun/projectile/m7_smg = 0,
+					/obj/item/weapon/gun/projectile/shotgun/pump/m45_ts = 0,
+					/obj/item/weapon/gun/projectile/ma3_ar = 0,
+					"Ammunition" = -1,
+					/obj/item/ammo_magazine/m6s/m225 = 0,
+					/obj/item/ammo_magazine/ma3/m118 = 0,
+					/obj/item/ammo_magazine/m7/m443,
+					/obj/item/ammo_magazine/m7/rubber,
+					/obj/item/ammo_box/shotgun = 0,
+					/obj/item/ammo_box/shotgun/slug = 0,
+					/obj/item/ammo_box/shotgun/beanbag = 0,
+					/obj/item/ammo_box/shotgun/flash = 0,
+					/obj/item/ammo_box/shotgun/practice = 0
+					"Explosives" = -1,
+					/obj/item/weapon/grenade/smokebomb = 0,
+					/obj/item/weapon/grenade/flashbang = 0,
+					/obj/item/weapon/plastique = 0,
+					/obj/item/weapon/plastique/breaching = 0,
+					/obj/item/weapon/plastique/breaching/longrange = 0,
+					)
+	amounts = list(\
+	/obj/item/weapon/grenade/smokebomb = 25,
+	/obj/item/weapon/grenade/flashbang = 10,
+	/obj/item/weapon/plastique = 4,
+	/obj/item/weapon/plastique/breaching = 8,
+	/obj/item/weapon/plastique/breaching/longrange= 8,
+	)
+
+/obj/machinery/pointbased_vending/armory/odstvend/armour
+	name = "Marshal Misc Equipment Vendor"
+	products = list(
+					"Armor" = -1,
+					/obj/item/clothing/suit/storage/vest/tactical/police/marshal = 0,
+					/obj/item/clothing/suit/armor/vest/police_medium/marshal = 0,
+					/obj/item/clothing/suit/armor/vest/police/marshal = 0,
+					"Headgear" = -1,
+					/obj/item/clothing/head/soft/police/marshal = 0,
+					/obj/item/clothing/head/soft/police/marshal/patrol = 0,
+					/obj/item/clothing/head/soft/police/marshal/beret = 0,
+					"Helmets" = -1,
+					/obj/item/clothing/head/helmet/swat/police/marshal = 0,
+					/obj/item/clothing/head/helmet/swat/police/medium/marshal = 0,
+					/obj/item/clothing/head/helmet/swat/police/medium/marshalmedic = 0,
+					/obj/item/clothing/head/helmet/gas/police/heavy/marshal = 0,
+					"Miscellaneous Clothing" = -1,
+					/obj/item/clothing/shoes/marine/marshal = 0,
+					/obj/item/clothing/gloves/thick/unsc/marshal = 0,
+					/obj/item/clothing/mask/balaclava/tactical/police/marshal = 0,
+					/obj/item/clothing/glasses/police/marshal = 0,
+					/obj/item/clothing/ears/earmuffs/earplugs = 0,
+					"Storage" = -1,
+					/obj/item/weapon/storage/belt/marine_ammo/marshal = 2,
+					/obj/item/weapon/storage/belt/marine_medic = 1,
+					/obj/item/weapon/storage/belt/security = 0,
+					/obj/item/weapon/storage/belt/utility/full = 0,
+					/obj/item/clothing/accessory/storage/IFAK/UNSC = 1,
+					/obj/item/clothing/accessory/storage/bandolier = 2,
+					/obj/item/weapon/storage/backpack/marine/brown, = 2,
+					/obj/item/clothing/accessory/holster = 1,
+					/obj/item/clothing/accessory/holster/armpit = 1,
+					/obj/item/clothing/accessory/holster/waist = 1,
+					/obj/item/clothing/accessory/holster/hip = 1,
+					/obj/item/clothing/accessory/holster/thigh = 1,
+					"Storage - Hardcases" = -1,
+					/obj/item/weapon/storage/pocketstore/hardcase/magazine = 0,
+					/obj/item/weapon/storage/pocketstore/hardcase/bullets = 0,
+					/obj/item/weapon/storage/pocketstore/hardcase/grenade = 1,
+					/obj/item/weapon/storage/pocketstore/hardcase/armorkits = 0,
+					/obj/item/weapon/storage/pocketstore/hardcase/medbottles = 0,
+					/obj/item/weapon/storage/pocketstore/hardcase/hypos = 0,
+					/obj/item/weapon/storage/pocketstore/hardcase/materials = 0,
+					/obj/item/weapon/storage/pocketstore/hardcase/tools = 0,
+					"Other" = -1,
+					/obj/item/weapon/storage/firstaid/unsc = 0,
+					/obj/item/device/binoculars = 0,
+					/obj/item/weapon/armor_patch = 0,
+					/obj/item/weapon/armor_patch/mini = 0,
+					)
+	amounts = list(\
+					/obj/item/weapon/storage/firstaid/unsc = 12,
+					)
+
+/obj/machinery/vending/armory/attachment/marshal
+	name = "Marshal Attachments Vendor"
+	desc = "A vendor full of attachments for the MA3."
+	req_access = list(access_soe)
+	products = list(/obj/item/weapon_attachment/barrel/suppressor = 5,
+					/obj/item/weapon_attachment/light/flashlight = 5,
+					/obj/item/weapon_attachment/vertical_grip = 5,
+					/obj/item/weapon_attachment/sight/rds = 5,
+					/obj/item/weapon_attachment/secondary_weapon/underslung_shotgun_soe = 4,
+					/obj/item/weapon_attachment/sight/acog = 5,
+					/obj/item/weapon_attachment/secondary_weapon/underslung_grenadelauncher = 4,
+					/obj/item/ammo_casing/g40mm = 12,
+					/obj/item/ammo_casing/g40mm/smoke = 6,
+					/obj/item/ammo_casing/g40mm/illumination = 6)

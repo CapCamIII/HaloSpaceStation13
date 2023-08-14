@@ -97,11 +97,11 @@
 	fire_delay = 20
 
 /obj/item/weapon_attachment/secondary_weapon/underslung_shotgun_soe
-	name = "SOE underslung shotgun"
+	name = "heavy underslung shotgun"
 	desc = "An attachment designed to provide secondary tactical weapon usage."
 	icon_state = "Underbarrel-Shotgun-SOE-obj"
 	weapon_slot = "underbarrel rail"
-	ammotype = /obj/item/ammo_casing/shotgun
+	ammotype = /obj/item/ammo_casing/shotgun/pellet/high_power
 	int_mag_size = 2
 	alt_fire_loadsound = 'code/modules/halo/sounds/Shotgun_Pump_Slide.ogg'
 	fire_delay = 10

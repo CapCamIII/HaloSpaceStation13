@@ -387,7 +387,7 @@
 	/obj/item/clothing/gloves/thick/unsc/marshal,
 	/obj/item/weapon/storage/belt/marine_ammo/marshal,
 	/obj/item/weapon/storage/belt/security,
-	/obj/item/weapon/gun/projectile/m6d_magnum/police/police,
+	/obj/item/weapon/gun/projectile/m6d_magnum/police,
 	/obj/item/clothing/accessory/badge/marshal,
 	/obj/item/device/radio/headset/marshal,
 	/obj/item/weapon/storage/backpack/marine/brown,
